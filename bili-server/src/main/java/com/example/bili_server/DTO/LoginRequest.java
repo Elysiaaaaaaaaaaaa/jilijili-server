@@ -1,4 +1,4 @@
-package com.example.bili_server.pojo;
+package com.example.bili_server.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LoginRequest {
-    private Integer userId;
     private String userName;
     private String password;
 }
